@@ -1,0 +1,67 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging artifacts
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+
+# IDE / OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Secrets / credentials
+.env
+.env.*
+*.key
+*.pem
+credentials*
+*token*
+
+# Hugging Face / downloaded model caches and checkpoints
+.cache/
+huggingface/
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+*.csv
+*.log
+results/
+results_*/
+plots/
+outputs/
+
+# Generated run provenance / policy snapshots
+*.metadata.json
+*.policies/
+
+# Temporary / debug files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Coverage
+.coverage
+htmlcov/

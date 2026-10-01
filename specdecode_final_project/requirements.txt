@@ -1,0 +1,6 @@
+torch
+transformers
+pytest
+nvidia-ml-py
+pandas
+matplotlib

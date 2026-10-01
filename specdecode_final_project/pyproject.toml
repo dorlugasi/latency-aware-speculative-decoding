@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specdecode"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "torch",
+    "transformers",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+analysis = ["pandas", "matplotlib"]
+cuda-metrics = ["nvidia-ml-py"]
+all = ["pytest", "pandas", "matplotlib", "nvidia-ml-py"]
+
+[tool.setuptools]
+packages = ["specdecode"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+testpaths = ["tests"]
