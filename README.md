@@ -1,5 +1,11 @@
 # Latency-Aware Adaptive Speculative Decoding
 
+## Authors
+
+- Dor Lugasi
+- Samiha Alem
+
+
 Final project implementation for adaptive speculative decoding under changing runtime conditions.
 
 The project compares fixed speculative drafting lengths with adaptive LinUCB policies that choose
